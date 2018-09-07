@@ -1,0 +1,64 @@
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.redes{
+    display:flex;
+    justify-content: space-between;
+    text-decoration: none;
+    list-style: none;
+}
+
+i{
+    color: #7f888f;
+}
+li{
+    padding: 0.5vw;
+}
+
+hr{
+    border: 3px solid #f56a6a;
+    margin-bottom: 3em;
+    
+
+}
+span{
+    color: #7f888f;
+}
+h1{
+    margin:0;
+}
+
+.flex2{
+    display:grid;
+    grid-template-columns: 50% 50%;
+    justify-content: center;
+    height: 40%vh;
+
+}
+.foto{
+    display:flex;
+    justify-content: space-between;
+}
+
+p{
+    color: #7f888f;
+}
+
+.foto{
+    width: 10%vw;
+    height: 5%vh;
+    padding-top: 5em;
+    border-radius: 50%;
+    justify-content: center;
+}
+body{
+    margin-right:3em;
+    margin-left:5em; 
+}
+
+
+
+/*grid-template(50% 50%)*/
